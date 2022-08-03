@@ -14,12 +14,12 @@ public class SortTest {
         int[] arr = {9, 8, 7, 10, 123, 6, 789, 654, 88, 658};
         System.out.println("=============排序前============");
         System.out.println(Arrays.toString(arr));
-//        straightSort(a);
-//        bubbleSort(a);
-//        selectSort(a);
-//        shellSort(a);
-//        quickSort(a,0,5);
-//        heapSort(a);
+        straightSort(a);
+        bubbleSort(a);
+        selectSort(a);
+        shellSort(a);
+        quickSort(a,0,5);
+        heapSort(a);
         process(arr, 0, 9);
 //        radixSort(arr);
         System.out.println("=============排序后============");
